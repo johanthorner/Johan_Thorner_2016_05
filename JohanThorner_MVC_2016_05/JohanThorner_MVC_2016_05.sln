@@ -10,6 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		TextFile1.txt = TextFile1.txt
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohanThorner_MVC_2016_05Tests", "JohanThorner_MVC_2016_05Tests\JohanThorner_MVC_2016_05Tests.csproj", "{E83FF31E-7A4B-44E0-A670-160234D03E71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testAplication", "testAplication\testAplication.csproj", "{E0C772AE-677D-45A5-9AC4-CFF13FDB7934}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +24,14 @@ Global
 		{96F12B74-9616-460E-A49D-D5EC45D8B99B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96F12B74-9616-460E-A49D-D5EC45D8B99B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96F12B74-9616-460E-A49D-D5EC45D8B99B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E83FF31E-7A4B-44E0-A670-160234D03E71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E83FF31E-7A4B-44E0-A670-160234D03E71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E83FF31E-7A4B-44E0-A670-160234D03E71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E83FF31E-7A4B-44E0-A670-160234D03E71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0C772AE-677D-45A5-9AC4-CFF13FDB7934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0C772AE-677D-45A5-9AC4-CFF13FDB7934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0C772AE-677D-45A5-9AC4-CFF13FDB7934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0C772AE-677D-45A5-9AC4-CFF13FDB7934}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

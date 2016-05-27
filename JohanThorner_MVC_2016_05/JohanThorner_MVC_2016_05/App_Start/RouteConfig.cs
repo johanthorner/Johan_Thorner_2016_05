@@ -14,9 +14,19 @@ namespace JohanThorner_MVC_2016_05
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
+              name: "start",
+              url: "{Stores}/{action}/{id}",
+              defaults: new { controller = "Stores", action = "Create", id = UrlParameter.Optional }
+          );
+            routes.MapRoute(
+               name: "Hexa",
+               url: "{Sprite}/{action}/{id}",
+               defaults: new { controller = "Sprite", action = "Hexa", id = UrlParameter.Optional }
+           );
+            routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Sprite", action = "Octa", id = UrlParameter.Optional }
             );
         }
     }
